@@ -45,5 +45,10 @@ namespace WindowsFormsApp6
             cmd.Dispose();
             conn.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mgrAllowTB.ResetText();
+        }
     }
 }
