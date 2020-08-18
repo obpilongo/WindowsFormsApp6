@@ -39,6 +39,9 @@ namespace WindowsFormsApp6
 
             MessageBox.Show("saved");
 
+            deptIdtb.Text = "";
+            deptNameTB.Text = "";
+            mgrNotb.Text = "";
             cmd.Dispose();
             conn.Close();
         }
